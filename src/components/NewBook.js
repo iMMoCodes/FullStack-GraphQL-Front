@@ -26,7 +26,6 @@ const NewBook = (props) => {
         title,
         published: parseInt(published),
         author,
-        addBookId: Date.now(),
         genres,
       },
     })
